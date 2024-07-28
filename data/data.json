@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": 20000,
+        "description": "A reliable sedan with great fuel efficiency."
+    },
+    {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "price": 22000,
+        "description": "A compact car with advanced features and a sporty look."
+    },
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2019,
+        "price": 30000,
+        "description": "A classic muscle car with powerful performance."
+    },
+    {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2018,
+        "price": 18000,
+        "description": "A mid-size sedan with a comfortable ride and modern amenities."
+    },
+    {
+        "id": 5,
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2022,
+        "price": 35000,
+        "description": "An electric vehicle with cutting-edge technology and performance."
+    },
+    {
+        "id": 6,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2021,
+        "price": 40000,
+        "description": "A luxury sedan offering a blend of performance and comfort."
+    }
+]
