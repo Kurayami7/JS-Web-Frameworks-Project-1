@@ -1,25 +1,26 @@
-// Add an event listener to the "Fetch Data" button
+// Adding an event listener to the "Load Player Stats" button
 document.getElementById('fetchDataBtn').addEventListener('click', async () => {
     try {
-        // Send a request to the server to get the JSON data
-        const response = await fetch('/api/data');
-        // Parse the response as JSON
-        const data = await response.json();
+        // Sending a request to the server to fetch player data
+        const response = await fetch('/api/players'); // Ensure this matches your Express route
+        if (!response.ok) {
+            throw new Error('Network response was not ok'); // Throwing an error if the response is not OK
+        }
+        const data = await response.json(); // Parsing the response JSON data
 
-        // Initialize an HTML string to build the output
+        // Initializing an HTML string to build the output
         let output = '<ul>';
-        // Iterate over each car object in the data array
-        data.forEach(car => {
-            // Append each car's information as a list item
-            output += `<li>${car.make} ${car.model} (${car.year}) - $${car.price}: ${car.description}</li>`;
+        // Iterating over each player in the data array
+        data.forEach(player => {
+            // Appending each player's information as a list item
+            output += `<li>${player.player.name} (${player.team.name}) - ${player.player.position} - Goals: ${player.player.statistics.goals}</li>`;
         });
-        // Close the unordered list
-        output += '</ul>';
-        // Insert the constructed HTML into the dataDisplay element
+        output += '</ul>'; // Closing the unordered list
+        // Inserting the constructed HTML into the dataDisplay element
         document.getElementById('dataDisplay').innerHTML = output;
     } catch (error) {
-        // Log the error to the console and display an error message to the user
+        // Logging the error to the console and displaying an error message to the user
         console.error('Error fetching data:', error);
-        document.getElementById('dataDisplay').innerText = 'Error fetching data.';
+        document.getElementById('dataDisplay').innerText = 'Error fetching data.'; // Displaying error message
     }
 });

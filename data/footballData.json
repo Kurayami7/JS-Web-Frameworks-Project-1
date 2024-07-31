@@ -1,0 +1,73 @@
+{
+    "lastUpdated": "2024-07-31",
+    "players": [
+        {
+            "id": 1,
+            "team": {
+                "name": "Al Nassr",
+                "country": "Saudi Arabia"
+            },
+            "player": {
+                "name": "Cristiano Ronaldo",
+                "position": "Forward",
+                "statistics": {
+                    "goals": 14,
+                    "assists": 5,
+                    "appearances": 20,
+                    "minutesPlayed": 1800
+                }
+            }
+        },
+        {
+            "id": 2,
+            "team": {
+                "name": "Al Ittihad",
+                "country": "Saudi Arabia"
+            },
+            "player": {
+                "name": "Karim Benzema",
+                "position": "Forward",
+                "statistics": {
+                    "goals": 19,
+                    "assists": 7,
+                    "appearances": 22,
+                    "minutesPlayed": 1980
+                }
+            }
+        },
+        {
+            "id": 3,
+            "team": {
+                "name": "Inter Miami",
+                "country": "USA"
+            },
+            "player": {
+                "name": "Lionel Messi",
+                "position": "Forward",
+                "statistics": {
+                    "goals": 10,
+                    "assists": 8,
+                    "appearances": 15,
+                    "minutesPlayed": 1350
+                }
+            }
+        },
+        {
+            "id": 4,
+            "team": {
+                "name": "Liverpool",
+                "country": "England"
+            },
+            "player": {
+                "name": "Mohamed Salah",
+                "position": "Forward",
+                "statistics": {
+                    "goals": 23,
+                    "assists": 10,
+                    "appearances": 25,
+                    "minutesPlayed": 2250
+                }
+            }
+        }
+    ]
+}
