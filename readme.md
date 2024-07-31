@@ -13,19 +13,19 @@ This project is a web application that demonstrates the use of Express.js to ser
 
 ## Project Structure
 
-football-data-project/
-├── data/
-│ └── footballData.json
-├── public/
-│ ├── index.html
-│ ├── about.html
-│ ├── contact.html
-│ ├── data.html
-│ ├── script.js
-│ └── style.css
-├── app.js
-├── package.json
-└── README.md
+- football-data-project/
+- ├── data/
+- │ └── footballData.json
+- ├── public/
+- │ ├── index.html
+- │ ├── about.html
+- │ ├── contact.html
+- │ ├── data.html
+- │ ├── script.js
+- │ └── style.css
+- ├── app.js
+- ├── package.json
+- └── README.md
 
 
 ## Setup
